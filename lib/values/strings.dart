@@ -1,5 +1,5 @@
 class Strings {
-  static const String splashText = "Pet Shop";
+  static const String splashText = "Platzi Shop";
   static const String name = "Mrs Turner";
   static const String dog = "Dog";
   static const String cat = "Cat";
