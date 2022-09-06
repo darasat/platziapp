@@ -1,6 +1,6 @@
 class ImageList {
-  static const splashlogo = "assets/logo.jpeg";
-  static const profile = "assets/profile.jpg";
+  static const splashlogo = "assets/logo.png";
+  static const profile = "assets/profile.png";
   static const dog = "assets/dog.jpeg";
   static const cat = "assets/cat.jpeg";
   static const bird = "assets/bird.jpeg";
