@@ -169,6 +169,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     Colors.transparent,
                                                 child: RecommendedBox(
                                                   ratingt: "5.0",
+                                                  title: categories[index]
+                                                      .name
+                                                      .toString(),
                                                   url: categories[index]
                                                       .image
                                                       .toString(),
