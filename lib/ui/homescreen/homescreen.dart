@@ -224,7 +224,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 highlightColor: Colors.transparent,
                 child: ListComponent(
                   title: 'Havanese Dog',
-                  age: "1 Years Old",
+                  description: "1 Years Old",
                   price: "\$475",
                   url: "https://placedog.net/500",
                   ratingt: "5.0",
@@ -251,7 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 highlightColor: Colors.transparent,
                 child: ListComponent(
                   title: 'Australian Dog',
-                  age: "1 Years Old",
+                  description: "1 Years Old",
                   price: "\$350",
                   url: "https://placedog.net/500",
                   ratingt: "5.0",
@@ -278,7 +278,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 highlightColor: Colors.transparent,
                 child: ListComponent(
                   title: 'Havanese Cat',
-                  age: "1 Years Old",
+                  description: "1 Years Old",
                   price: "\$235",
                   url: "https://placedog.net/500",
                   ratingt: "4.0",

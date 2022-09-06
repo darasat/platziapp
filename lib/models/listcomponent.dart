@@ -7,7 +7,7 @@ import 'package:platziapp/values/custom_colors.dart';
 // ignore: must_be_immutable
 class ListComponent extends StatelessWidget {
   String title = "abc";
-  String age = "abc";
+  String description = "abc";
   String price = "\$200";
   String ratingt = "5";
   int rating = 5;
@@ -16,7 +16,7 @@ class ListComponent extends StatelessWidget {
   ListComponent({
     Key? key,
     required this.title,
-    required this.age,
+    required this.description,
     required this.price,
     required this.rating,
     required this.ratingt,
@@ -63,7 +63,7 @@ class ListComponent extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  age,
+                  description,
                   style: GoogleFonts.lato(
                     fontSize: 16,
                     color: Colors.black87,
