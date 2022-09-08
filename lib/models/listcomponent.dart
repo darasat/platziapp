@@ -29,7 +29,7 @@ class ListComponent extends StatelessWidget {
       padding: const EdgeInsets.only(top: 12.0, left: 10.0, right: 10.0),
       child: Container(
         width: MediaQuery.of(context).size.width,
-        height: 100,
+        height: 180,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: const BorderRadius.all(Radius.circular(15)),

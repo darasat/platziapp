@@ -373,10 +373,8 @@ class _PetListState extends State<PetList> {
                                 highlightColor: Colors.transparent,
                                 child: ListComponent(
                                   title: products[index].title.toString(),
-                                  description: products[index]
-                                      .description
-                                      .toString()
-                                      .substring(0, 15),
+                                  description:
+                                      products[index].description.toString(),
                                   price: products[index].price.toString(),
                                   url: products[index].images![0],
                                   ratingt: "5",
