@@ -376,7 +376,7 @@ class _PetListState extends State<PetList> {
                                   description: products[index]
                                       .description
                                       .toString()
-                                      .substring(0, 25),
+                                      .substring(0, 15),
                                   price: products[index].price.toString(),
                                   url: products[index].images![0],
                                   ratingt: "5",
